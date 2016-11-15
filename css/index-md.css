@@ -1,0 +1,12 @@
+*{
+    margin: 0px auto;
+    max-width: 800px;
+    
+}
+#first {
+    font-size: 60%;
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    transform: translate(-50%,-60%);
+}

@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Butch;
+    src: url(fonts/Butch.otf),
+}
+@font-face {
+    font-family: Intro Head R Base;
+    src: url(fonts/IntroHeadR-Base.otf);
+}
+*{
+    margin: 0px auto;
+    max-width: 1920px;
+}
+
+body{
+    margin:0px;
+    font-family: "Intro Head R Base";
+    font-size: 100%;
+    width: 100%;
+    
+}
+body:after{
+    display:none;
+    content: url(flag_hover.png);
+    content: url(flag_active.png);
+    content: url(flag2.png);
+}
+#background_picture{
+    width: 100%;
+    height: auto;
+    
+}
+
+#first {
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    padding: 0 10px;
+    border: solid 2px;
+    color: #fff;
+    font-family: "Butch";
+    font-size: 100%;
+    font-weight: bold;
+    word-spacing: 5px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #888888;
+}
+
+header{
+   
+    margin-bottom: 0px;
+    margin-right: opx;
+}
+nav {
+    width: 100%;
+    height: auto;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    clear: both;
+}
+
+#leftside{
+    width: 30%;
+    float: left;
+    padding: 5% 5%;
+    font-size: 130%;
+}
+#leftside a {
+    text-decoration: none;
+}
+#social{
+    display: inline;
+    display: flex;
+    justify-content: center;  
+}
+#social img{
+    margin: 20px 5px;
+}
+#main{
+    width: 60%;
+    float: left;
+    padding-top: 2%;
+    font-size: 150%;
+    
+}
+#paragraph_main {
+    width: 90%
+}
+.center_text{
+    font-size: 200%;
+    margin: 0 auto;
+    padding-left: 19%;
+}
+#take_quiz {
+    padding: 5% 0 0 15%;
+}
+#take_quiz a{
+    text-decoration: none;
+    font-size: 140%;
+    padding: 5px 10px;
+    background-color: #cc740a;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+#take_quiz a:hover{
+    background-color: #f69e0d;
+    box-shadow: 2px 2px 2px #db4b0b;
+    
+}
+
+#registration {
+    font-size: 130%;
+    width: 60%;
+    padding: 2%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0; 
+    margin-top: 1%;
+    margin-left: 3%;
+}
+#form_button {
+    font-size: 80%;
+    background-color: #cc740a;
+    border: solid 0px;
+    border-radius: 15px;
+    color: #fff;
+    padding-left: 3%;
+    padding-right: 3%
+}
+#form_button:hover:active:focus{
+    border: solid 0px;
+}
+
+#map {
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+footer {
+    clear: both;
+    background-color: #000000;
+    margin-bottom: 0px;
+}
+footer p {
+    color: #fff;
+   text-align: center;
+   margin: 0px;
+    font-size: 100%;
+     padding: 1%;
+}
+
+
+
+ 
+#flag:active{
+   content: url(images/nav/flag_active.png)
+}
+
+#flag:focus{
+   content: url(images/nav/flag_active.png)
+}
+
+#flag:hover{
+    content: url(images/nav/flag_hover.png)
+}
+ 
+

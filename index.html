@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<title>Helloween Party</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="css/index.css" type="text/css" />
+         <link rel="stylesheet" href="css/index-sm.css" media="(min-width: 450px)">
+        <link rel="stylesheet" href="css/index-md.css" media="(max-width: 800px)">
+        <link rel="stylesheet" href="css/buttons.css" type="text/css" />
+        
+	</head>
+    <body>
+       <header>
+           <img src="images/background.jpg" alt="Helloween background" id="background_picture">
+               <div id="first">
+                   <h1>Helloween  Party</h1>
+                   <h1>"Some Club"</h1>
+                   <h1>31.10</h1>
+                </div>
+        </header> 
+        <nav>
+            <a href="index.html"><img src="images/nav/flag2.png" id="flag" alt="Home button"></a>
+            <a href="dress_up.html" id="hat"><img src="images/nav/hat2.png" alt="Dress Up" ></a>
+            <a href="pumpkin.html"><img src="images/nav/pumpkin2.png" alt="Carve your Jack o Lantern" id="pumpkin"></a>
+            <a href="quiz.html"><img src="images/nav/quiz2.png" alt="Quiz" id="quiz"></a>
+            <a href="contacts.html"><img src="images/nav/contacts2.png" alt="Contacts" id="contacts"></a>
+        </nav>
+        <aside id="leftside">
+            <a href=""><h3>Discuss current topics in our Forum</h3></a>
+            <ul>
+                <li><a href="">How to carve the pumpkin</a></li>
+                <li><a href="">Where to get the costume?</a></li>
+                <li><a href="">How many tickets can you register?</a></li>
+                <li><a href="">Where is teh club?</a></li>
+                <li><a href="">Where to get the costume?</a></li>
+                <li><a href="">How many tickets can you register?</a></li>
+                <li><a href="">Where is teh club?</a></li>
+            </ul>
+            <section id="social">
+                <a href=""><img src="images/fb.png"></a>
+                <a href=""><img src="images/Twitter.png"></a>
+                <a href=""><img src="images/yt.png"></a>
+                <a href=""><img src="images/Flickr.png"></a>
+            </section>
+            <section id="take_quiz">
+                <a href="quiz.html">Get free tickets!</a>
+            </section>
+        </aside>
+        <article id="main">
+            <section>
+                <h1 class="center_text">Helloween Party</h1>
+                <h1 class="center_text">"Some Club"</h1>
+                <p id="paragraph_main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h1 class="center_text">Get a 10% DISCOUNT!</h1>
+                <h1 class="center_text">Register now!</h1>
+                <form  action="https://formspree.io/marta.bzl@gmail.com"
+          method="post" id="registration">
+                    <label for="userName">Your name:</label>
+                    <input type="text" name="userName" id="userName" placeholder="Your name" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="_replyto" id="email" placeholder="Email" required>
+                    <br>
+                    <label for="phone">Your phone number: +38</label>
+                    <input type="text" name="phone" id="phone" placeholder="067 6767676" pattern="[0-9]{3}[0-9]{7}" required>
+                    <br>
+                    <button type="submit" name="submit" value="send" id="form_button" autofocus>Submit</button>
+                </form>
+            </section>
+        </article>
+        <article>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.617920234923!2d24.04148831570908!3d49.83084597939475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add5ca88300ed%3A0xebbd75e48b9d1230!2z0LLRg9C70LjRhtGPINCX0LXQu9C10L3QsCwgNjcsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1478001061860" width="99.6%" height="450" allowfullscreen></iframe>
+        </article>
+        <footer>
+            <p>All rights reserved, 2016</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+    </body>
+</html>
